@@ -2,7 +2,127 @@
 ================================
 
 Mobile web programming class
+================================
 
 Day 1:
+================================
 
 GitHub instructions.
+
+creating servers.
+
+NAT - Network address transulation.
+
+domain ex: mwsu.edu brings external ip address
+sub domain ex: cs.mwsu.edu brings internal ip address
+
+static ip addresses are unchanged ip addresses.
+DHCP (Dynamic Host Control Protocol) brings up the new ip address it receives.
+
+Servers must have static ip.
+
+created server web-course2014 in digital ocean.
+
+server commands
+ls - listing
+ll - long listing (ls -lah)
+
+working directory cd /var/www/html
+
+change permissions for the files
+
+Owner   Group   Public
+4 2 1   4 2 1   4 2 1
+R W X   R W X   R W X
+
+This file must have restricted access
+chmod 700 info.php
+
+www-data is apache server
+
+ifconfig to get connected information
+
+whoami is to get user info
+
+uers - gives u user
+
+adduser username
+
+
+nano /etc/sudoers
+is to edit sudoers.
+go in this file and grant priviliges to the user u create
+
+
+rm - remove files
+
+rm -rf *
+
+history - gives u all commands u type.
+
+open notepad++ and connect it to your server
+
+
+sudo chown -R  username:username folder name
+get ownership of the folder
+
+open index.htmlin notepad++ to edit it
+
+<head> information about the page </head>
+<body> contents of the page </body>
+
+<!-- comment tag -->
+
+<div> block level element divides the page</div> nothing prints out on same line
+
+<span> tag spans over text
+
+<span style="color:red"> adding a styling attribute of color red
+
+
+span{
+font-weight:bold;
+color:green;
+}
+
+converts everything have span to following things
+
+<ul> unordered list
+<li> line item goes in <ul> or <ol>
+
+<ol> ordered list
+
+
+JSfiddle.net - lets u do HTML, CSS, Java Script and execute it
+
+<img src="path to image"> to input an image
+
+attributes in img tag
+
+width
+height
+
+if only width is changed it changes with aspect ratio
+
+
+<a href="any URL"> anchor tag to redirect to a URL specified
+
+<p> paragraph tag this is also a block level tag
+
+<h1-6> heading tags
+
+<?php start php tag ?>
+<h{$i}>
+
+
+sudo apt-get install 
+
+
+<table> shows data in tabular format
+<tr> table row
+<td> Table columm or data
+<th> table headings
+
+
+padding space between inside of an element all over
+margins - buffer the margins
