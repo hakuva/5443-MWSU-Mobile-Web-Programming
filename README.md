@@ -2,3 +2,7 @@
 ================================
 
 Mobile web programming class
+
+Day 1:
+
+GitHub instructions.
