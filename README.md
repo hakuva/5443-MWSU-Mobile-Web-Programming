@@ -11,6 +11,8 @@ GitHub instructions.
 
 creating servers.
 
+ip address: 104.131.135.146
+
 NAT - Network address transulation.
 
 domain ex: mwsu.edu brings external ip address
@@ -126,3 +128,22 @@ sudo apt-get install
 
 padding space between inside of an element all over
 margins - buffer the margins
+
+
+Day 2:
+================================
+
+Text Wrangler is installation.
+
+udacity.com is a online course website
+
+<pre> is used so that white space or removed
+
+<iframe src="url"> can bring other pages of html from another sources pages
+
+associative arrays are introduced
+
+take a snippet from bootsnipp.com
+
+go to bootstrapcdn.com to get complete bootstrap
+.
