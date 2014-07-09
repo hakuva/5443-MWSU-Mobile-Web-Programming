@@ -120,7 +120,7 @@ if only width is changed it changes with aspect ratio
 sudo apt-get install 
 
 
-<table> shows data in tabular format
+<table> shows data in tabular format</table>
 <tr> table row
 <td> Table columm or data
 <th> table headings
@@ -146,4 +146,56 @@ associative arrays are introduced
 take a snippet from bootsnipp.com
 
 go to bootstrapcdn.com to get complete bootstrap
-.
+
+Day 3:
+================================
+
+GitHub instructions:
+create a new folder and a file using touch file name
+
+
+intialise git in folder
+git init
+
+git add -A to add all the files in the folder
+
+git commit - m "your messsage"
+
+git config --global user.name "hakuva"
+to link github username to ur folder
+
+it config --global user.email "sampatisai93@gmail.com"
+to link github email to ur folder
+
+git remote add origin git@github.com:hakuva/repository.git
+
+git push -u origin master
+
+
+git add -A
+git commit -m "Adding my first file"
+git config --global user.name "hakuva"
+git commit -m "Adding my first file"
+git config --global user.email "sampatisai93@gmail.com"
+git config --global user.name "hakuva"
+git commit -m "Adding my first file"
+git status
+git remote add origin git@github.com:hakuva/5443-MWSU-Mobile-Web-Programming.git
+git push -u origin master
+cd
+cd ~/
+ll
+cd .ssh
+ll
+ssh-keygen
+ll
+cat id_rsa.pub
+ssh-keygen -T rsa -C sampatisai93@gmail.com
+ssh-keygen -t rsa -C sampatisai93@gmail.com
+cat id_rsa.pub
+
+
+
+copy rsa key
+
+go to your folde type ssh -T git@github.com
